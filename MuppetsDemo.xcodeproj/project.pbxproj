@@ -14,6 +14,18 @@
 		2FE0B92C1B9E338700426C66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE0B92B1B9E338700426C66 /* Images.xcassets */; };
 		2FE0B92F1B9E338700426C66 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FE0B92D1B9E338700426C66 /* LaunchScreen.xib */; };
 		2FE0B93B1B9E338700426C66 /* MuppetsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE0B93A1B9E338700426C66 /* MuppetsDemoTests.m */; };
+		2FE0B94E1B9E34D900426C66 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE0B94D1B9E34D900426C66 /* CoreText.framework */; };
+		2FE0B9541B9E352300426C66 /* libLookIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE0B9511B9E352300426C66 /* libLookIO.a */; };
+		2FE0B9551B9E352300426C66 /* LookIO.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2FE0B9531B9E352300426C66 /* LookIO.bundle */; };
+		2FE0B9571B9E353200426C66 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE0B9561B9E353200426C66 /* MapKit.framework */; };
+		2FE0B9591B9E354500426C66 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE0B9581B9E354500426C66 /* CFNetwork.framework */; };
+		2FE0B95B1B9E355300426C66 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE0B95A1B9E355300426C66 /* SystemConfiguration.framework */; };
+		2FE0B95D1B9E356200426C66 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE0B95C1B9E356200426C66 /* QuartzCore.framework */; };
+		2FE0B95F1B9E356A00426C66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE0B95E1B9E356A00426C66 /* CoreGraphics.framework */; };
+		2FE0B9611B9E357700426C66 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE0B9601B9E357700426C66 /* libz.dylib */; };
+		2FE0B9631B9E358D00426C66 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE0B9621B9E358D00426C66 /* Accelerate.framework */; };
+		2FE0B9651B9E359C00426C66 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE0B9641B9E359C00426C66 /* AudioToolbox.framework */; };
+		2FE0B9671B9E35A200426C66 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE0B9661B9E35A200426C66 /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +52,19 @@
 		2FE0B9341B9E338700426C66 /* MuppetsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuppetsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE0B9391B9E338700426C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FE0B93A1B9E338700426C66 /* MuppetsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuppetsDemoTests.m; sourceTree = "<group>"; };
+		2FE0B94D1B9E34D900426C66 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		2FE0B9511B9E352300426C66 /* libLookIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLookIO.a; sourceTree = "<group>"; };
+		2FE0B9521B9E352300426C66 /* LIOLookIOManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIOLookIOManager.h; sourceTree = "<group>"; };
+		2FE0B9531B9E352300426C66 /* LookIO.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LookIO.bundle; sourceTree = "<group>"; };
+		2FE0B9561B9E353200426C66 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2FE0B9581B9E354500426C66 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2FE0B95A1B9E355300426C66 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2FE0B95C1B9E356200426C66 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2FE0B95E1B9E356A00426C66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2FE0B9601B9E357700426C66 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		2FE0B9621B9E358D00426C66 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		2FE0B9641B9E359C00426C66 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2FE0B9661B9E35A200426C66 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +72,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE0B9671B9E35A200426C66 /* CoreTelephony.framework in Frameworks */,
+				2FE0B9651B9E359C00426C66 /* AudioToolbox.framework in Frameworks */,
+				2FE0B9631B9E358D00426C66 /* Accelerate.framework in Frameworks */,
+				2FE0B9611B9E357700426C66 /* libz.dylib in Frameworks */,
+				2FE0B95F1B9E356A00426C66 /* CoreGraphics.framework in Frameworks */,
+				2FE0B95D1B9E356200426C66 /* QuartzCore.framework in Frameworks */,
+				2FE0B95B1B9E355300426C66 /* SystemConfiguration.framework in Frameworks */,
+				2FE0B9591B9E354500426C66 /* CFNetwork.framework in Frameworks */,
+				2FE0B9571B9E353200426C66 /* MapKit.framework in Frameworks */,
+				2FE0B9541B9E352300426C66 /* libLookIO.a in Frameworks */,
+				2FE0B94E1B9E34D900426C66 /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +99,17 @@
 		2FE0B9121B9E338600426C66 = {
 			isa = PBXGroup;
 			children = (
+				2FE0B9661B9E35A200426C66 /* CoreTelephony.framework */,
+				2FE0B9641B9E359C00426C66 /* AudioToolbox.framework */,
+				2FE0B9621B9E358D00426C66 /* Accelerate.framework */,
+				2FE0B9601B9E357700426C66 /* libz.dylib */,
+				2FE0B95E1B9E356A00426C66 /* CoreGraphics.framework */,
+				2FE0B95C1B9E356200426C66 /* QuartzCore.framework */,
+				2FE0B95A1B9E355300426C66 /* SystemConfiguration.framework */,
+				2FE0B9581B9E354500426C66 /* CFNetwork.framework */,
+				2FE0B9561B9E353200426C66 /* MapKit.framework */,
+				2FE0B94F1B9E352300426C66 /* LPMobile_iOS_V_3_3_6 */,
+				2FE0B94D1B9E34D900426C66 /* CoreText.framework */,
 				2FE0B91D1B9E338700426C66 /* MuppetsDemo */,
 				2FE0B9371B9E338700426C66 /* MuppetsDemoTests */,
 				2FE0B91C1B9E338700426C66 /* Products */,
@@ -117,6 +164,24 @@
 				2FE0B9391B9E338700426C66 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FE0B94F1B9E352300426C66 /* LPMobile_iOS_V_3_3_6 */ = {
+			isa = PBXGroup;
+			children = (
+				2FE0B9501B9E352300426C66 /* iOS */,
+			);
+			path = LPMobile_iOS_V_3_3_6;
+			sourceTree = "<group>";
+		};
+		2FE0B9501B9E352300426C66 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2FE0B9511B9E352300426C66 /* libLookIO.a */,
+				2FE0B9521B9E352300426C66 /* LIOLookIOManager.h */,
+				2FE0B9531B9E352300426C66 /* LookIO.bundle */,
+			);
+			path = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +266,7 @@
 			files = (
 				2FE0B92A1B9E338700426C66 /* Main.storyboard in Resources */,
 				2FE0B92F1B9E338700426C66 /* LaunchScreen.xib in Resources */,
+				2FE0B9551B9E352300426C66 /* LookIO.bundle in Resources */,
 				2FE0B92C1B9E338700426C66 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +417,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MuppetsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MuppetsDemo/LPMobile_iOS_V_3_3_6/iOS",
+					"$(PROJECT_DIR)/LPMobile_iOS_V_3_3_6/iOS",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -361,6 +432,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MuppetsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MuppetsDemo/LPMobile_iOS_V_3_3_6/iOS",
+					"$(PROJECT_DIR)/LPMobile_iOS_V_3_3_6/iOS",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
